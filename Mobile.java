@@ -1,41 +1,33 @@
-class Mobile{
-public static long [] network(){	
-long [] mobileNumber ={1236549872l,789654235l,5175354574l,7539518527l,2584736934l};
-System.out.println("mobile network");
-return mobileNumber;
+ class Mobile {
+    public Mobile() {
+        System.out.println("There is a mobile");
+    }
+    public Mobile(int id) {
+        id = 201;
+        System.out.println("Mobile ID: " + id);
+    }
+    public Mobile(int id, String brand) {
+        brand = "Samsung";
+        System.out.println("Brand: " + brand);
+    }
+    public Mobile(int id, String brand, char sizeCategory) {
+        sizeCategory = 'L';
+        System.out.println("Size Category: " + sizeCategory);
+    }
+    public Mobile(int id, String brand, char sizeCategory, boolean is5G) {
+        is5G = true;
+        System.out.println("Supports 5G: " + is5G);
+    }
+    public Mobile(int id, String brand, char sizeCategory, boolean is5G, long imei) {
+        imei = 123456789012345L;
+        System.out.println("IMEI: " + imei);
+    }
+    public Mobile(int id, String brand, char sizeCategory, boolean is5G, long imei, double price) {
+        price = 49999.99;
+        System.out.println("Price: ₹" + price);
+    }
+    public Mobile(int id, String brand, char sizeCategory, boolean is5G, long imei, double price, float rating) {
+        rating = 4.6f;
+        System.out.println("Rating: " + rating);
+    }
 }
-  
-  public static String [] names(){
-	 String [] players ={"rohit sharma ","virat kohli","ms dhoni","suresh raina"}; 
-	  return players;
-	    
-  }
-public static char[] grade(){
-	char [] quality ={'1','2','3','A'};
-	return quality;
-	
-	
-}
-public static int[] model(){
-	int[] IMEI ={123,951,753,465};
-	return IMEI;
-	
-}
-public static double[] types(){
-	double[] IP ={6542.12,65.12654,987456.321};
-	return IP;
-		
-}
-public static float[] version(){
-	float[] names ={12.85f,65.15f,369.147f,258.32f,951753.123f};
-	return names;
-	
-}
-public static boolean[] mobileIsWorking(){
-boolean[] condition ={true,false,true,false};
-return condition;	
-	
-}
-	
-}
-
