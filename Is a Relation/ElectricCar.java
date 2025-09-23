@@ -1,0 +1,6 @@
+
+class ElectricCar extends Car { 
+
+
+
+}

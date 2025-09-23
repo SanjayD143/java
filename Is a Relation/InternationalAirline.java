@@ -1,0 +1,4 @@
+class InternationalAirline extends Airline {
+
+
+ }

@@ -1,0 +1,2 @@
+class CricketTeam extends Team {
+ }

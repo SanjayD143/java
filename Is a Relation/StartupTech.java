@@ -1,0 +1,3 @@
+class StartupTech extends TechCompany { 
+
+}

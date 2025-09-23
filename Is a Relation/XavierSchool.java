@@ -1,0 +1,3 @@
+class XavierSchool extends School {
+
+ }

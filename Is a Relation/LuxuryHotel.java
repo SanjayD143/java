@@ -1,0 +1,2 @@
+class LuxuryHotel extends Hotel { 
+}
